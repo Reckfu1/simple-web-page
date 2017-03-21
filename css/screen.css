@@ -1,0 +1,88 @@
+@media screen and (max-width: 480px){
+	.container{
+		background:#fff;
+	}
+	.head,.content{
+		display: none;
+	}
+	.content{
+		display: none;
+	}
+	#func{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width:768px ){
+	.name{
+		top: 25px;
+		left: 80px;
+		font-size:2.5em;
+	}
+	.hobby{
+		top:85px;
+		left: 80px;
+		font-size: 1.3em;
+	}
+	.wel_head,.music_head,.pro_head,.con_head{
+		font-size: 1.5em;
+	}
+	.wel_content,.music_content,.pro_content{
+		font-size: 1em;
+	}
+	.intro{
+		top: -100px;
+		right: -42px;
+		height: 135px;
+		width: 465px;
+	}
+	.pic{	
+		height: 135px;
+		width: 135px;
+		right: 198px;
+		top: 41px;
+		background-size: 135px;
+	}
+	.content{
+		width:550px;
+		margin: -60px auto -170px auto;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+	.pic{
+		height: 120px;
+		width: 120px;
+		top: 26px;
+		right:270px;
+		background-size: 120px;
+	}
+	.intro{
+		height: 120px;
+		width: 600px;
+		top: -100px;
+		right: -32px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.content{
+		width: 660px;
+		margin: -60px auto -150px auto;
+	}
+	.name{
+		font-size:3em;
+		top: 10px;
+		left: 90px;
+	}
+	.hobby{
+		font-size: 1.5em;
+		top: 70px;
+		left: 90px;
+	}
+	.wel_head,.music_head,.pro_head,.con_head{
+		font-size: 1.5em;
+	}
+	.wel_content,.music_content,.pro_content{
+		font-size: 1em;
+	}
+}

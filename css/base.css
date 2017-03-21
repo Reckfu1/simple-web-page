@@ -1,0 +1,97 @@
+body{
+    font-family: 'Josefin Sans',sans-serif;
+    margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #554241;
+}
+
+.container{
+	padding-bottom:194px;
+	background:linear-gradient(135deg,#e2c9b5 0%,#67464d 100%);
+	background: -moz-linear-gradient(-45deg,#e2c9b5 0%,#67464d 100%);
+	background: -webkit-linear-gradient(-45deg,#e2c9b5 0%,#67464d 100%);
+}
+
+.pic{
+	position: relative;
+	background: url("../res/head.png") no-repeat center;
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	border: 3px solid black;
+	top: 33px;
+	right: 400px;
+	z-index: 999;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.intro{
+	position: relative;
+	height: 200px;
+	width: 900px;
+	border: 3px solid black;
+	border-left: 0;
+	box-shadow: 0 0 30px white;
+	top: -173px;
+	right: -47px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url("../res/fade.png");
+}
+
+.name{
+	position: absolute;
+	font-size: 4em;
+	top: 35px;
+	left: 130px;
+}
+
+.hobby{
+	position: absolute;
+	font-size: 2.5em;
+	top: 110px;
+	left: 132px;
+}
+
+.content{
+	border: 3px solid black;
+	width: 992px;
+	height: 640px;
+	background: url("../res/fade.png");
+	margin: -140px auto;
+	text-align: left;
+}
+
+.wel_head,.music_head,.pro_head,.con_head{
+	font-size: 2em;
+	font-weight: bold;
+	padding: 20px;
+}
+.wel_content,.music_content,.pro_content{
+	font-size: 1.2em;
+	padding-left: 20px;
+}
+
+.contact ul{
+	margin-top: -1px;
+}
+
+.contact ul>li{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#con_a:hover{
+	text-decoration: underline;
+}
+
+#func{
+	display: none;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 250px auto;
+}
